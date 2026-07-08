@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I 5 Sensi Parrucchieri — Saloni di alta qualità a Torino e Reggio Calabria. Taglio, colore, trattamenti e benessere con prodotti di derivazione organica.">
+  <meta name="keywords" content="parrucchieri Torino, parrucchieri Reggio Calabria, I 5 Sensi, taglio capelli, colorazione, balayage, salon">
+  <meta name="author" content="I 5 Sensi Parrucchieri">
+  <meta property="og:title" content="I 5 Sensi Parrucchieri — Torino & Reggio Calabria">
+  <meta property="og:description" content="Il salone per chi ama prendersi cura di sé. Due sedi, un'unica filosofia: prodotti organici, tecnica impeccabile, esperienza sensoriale.">
+  <meta property="og:type" content="website">
+  <title>I 5 Sensi Parrucchieri — Torino & Reggio Calabria</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" role="navigation" aria-label="Navigazione principale">
+        <a class="navbar__logo" href="index.html"><img src="img/LOGO.png" alt="I 5 Sensi Logo" style="height: 40px;"></a>
+        <ul class="navbar__links" role="list">
+            <li><a href="index.html#servizi">Servizi</a></li>
+            <li><a href="torino.html">Torino</a></li>
+            <li><a href="reggio-calabria.html">Reggio Calabria</a></li>
+            <li><a href="index.html#sedi" class="navbar__cta">Prenota</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav" aria-label="Menu mobile">
+        <a href="index.html#servizi">Servizi</a>
+        <a href="torino.html">Sede Torino</a>
+        <a href="reggio-calabria.html">Sede Reggio Calabria</a>
+        <a href="index.html#sedi">Prenota un appuntamento</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Benvenuto in I 5 Sensi">
+        <div class="hero__bg" style="background-image: url('img/104.png'); background-size: cover; background-position: center; filter: brightness(0.6);"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <p class="hero__eyebrow">Parrucchieri · Torino & Reggio Calabria</p>
+            <h1 class="hero__title">I 5 Sensi<br><em>Parrucchieri</h1>
+            <p class="hero__desc">Due saloni con prodotti di derivazione organica, tecnica impeccabile e un'esperienza che parla a tutti i sensi.</p>
+            <div class="hero__actions">
+                <a href="#sedi" class="btn btn-gold">Scegli la tua sede</a>
+                <a href="#servizi" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.5);">Scopri i servizi</a>
+            </div>
+        </div>
+        <div class="hero__scroll" aria-hidden="true">Scorri</div>
+    </section>
+
+    <!-- INTRO BRAND -->
+    <section class="section" aria-labelledby="brand-title">
+        <div class="container">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;" class="responsive-half">
+                <div class="fade-in">
+                    <p class="section-label">La nostra filosofia</p>
+                    <h2 id="brand-title" class="section-title">Bellezza che<br>rispetta la natura</h2>
+                    <div class="gold-divider"></div>
+                    <p class="section-subtitle">In I 5 Sensi crediamo che la vera bellezza nasca dall'equilibrio tra tecnica e rispetto per la persona. Per questo utilizziamo esclusivamente <strong>prodotti di derivazione organica</strong>, formulati per nutrire, proteggere e valorizzare ogni tipo di capello.</p>
+                    <p style="margin-top:1rem;">Ogni visita è un momento per te — un rituale sensoriale in cui cura, professionalità e benessere si fondono in un'esperienza unica.</p>
+                </div>
+                <div class="fade-in" style="display:grid;grid-template-columns:1fr 1fr;gap:2px; border-radius: var(--r-md); overflow: hidden;">
+                    <div style="background:var(--forest);padding:2.5rem 2rem;color:#fff; display:flex; flex-direction:column; justify-content:center;">
+                        <div style="font-family:var(--serif);font-size:3rem;font-weight:300;color:var(--gold);">15+</div>
+                        <div style="font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;opacity:0.8;margin-top:0.3rem;">Anni di esperienza</div>
+                    </div>
+                    <div style="background:url('img/gallery-torino/1.jpg') center/cover no-repeat; min-height: 180px;"></div>
+                    <div style="background: url('img/gallery-torino/5.jpg') center/cover no-repeat; min-height: 180px;"></div>
+                    <div style="background:var(--forest);padding:2.5rem 2rem;color:#fff; display:flex; flex-direction:column; justify-content:center;">
+                        <div style="font-family:var(--serif);font-size:3rem;font-weight:300;color:var(--gold);">100%</div>
+                        <div style="font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;opacity:0.8;margin-top:0.3rem;">Prodotti organici</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIZI -->
+    <section class="section section--warm" id="servizi" aria-labelledby="servizi-title">
+        <div class="container">
+            <p class="section-label fade-in">I nostri servizi</p>
+            <h2 id="servizi-title" class="section-title fade-in">Tutto ciò di cui<br>il tuo capello ha bisogno</h2>
+            <div class="gold-divider fade-in"></div>
+        </div>
+        <div class="services-grid" style="max-width:1200px;margin:0 auto;">
+            <div class="service-item fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="9.8" y1="8.2" x2="21" y2="19"></line><line x1="9.8" y1="15.8" x2="21" y2="5"></line></svg>
+                </div>
+                <h3 class="service-item__title">Taglio & Piega</h3>
+                <p class="service-item__desc">Tagli su misura per valorizzare la tua forma del viso. Dalla piega classica agli styling più moderni.</p>
+            </div>
+            <div class="service-item fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.3857 18.0645 6.3888 17.5 7.5 17.5H8.5C9.60457 17.5 10.5 18.3954 10.5 19.5V20.5C10.5 21.3284 11.1716 22 12 22Z"></path><circle cx="7.5" cy="10.5" r="1.5" fill="currentColor"></circle><circle cx="11.5" cy="7.5" r="1.5" fill="currentColor"></circle><circle cx="16.5" cy="9.5" r="1.5" fill="currentColor"></circle></svg>
+                </div>
+                <h3 class="service-item__title">Colorazione</h3>
+                <p class="service-item__desc">Colore senza ammoniaca, balayage, meches e schiariture con effetto naturale. Solo prodotti organici.</p>
+            </div>
+            <div class="service-item fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.3-6.3l-.7.7M6.7 17.3l-.7.7m12.6 0l-.7-.7M6.7 6.7l-.7-.7M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path></svg>
+                </div>
+                <h3 class="service-item__title">Trattamenti</h3>
+                <p class="service-item__desc">Keratina, nanoplastia, trattamento all'acido ialuronico e laminazione per capelli straordinari.</p>
+            </div>
+            <div class="service-item fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 0 9.5a7 7 0 0 1-8 8.5z"></path><path d="M19 2L9 12"></path></svg>
+                </div>
+                <h3 class="service-item__title">Benessere</h3>
+                <p class="service-item__desc">Trattamenti liscianti, shirodara, maschere nutrienti. Un momento di pura cura per te.</p>
+            </div>
+            <div class="service-item fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3c0 4 3 6 3 10c0 3-1 5-3 8M12 3c0 4 3 6 3 10c0 3-1 5-3 8M19 3c0 4 3 6 3 10c0 3-1 5-3 8"></path></svg>
+                </div>
+                <h3 class="service-item__title">Extension</h3>
+                <p class="service-item__desc">Extension con capelli naturali per un risultato impeccabile e duraturo. 100 ciocche di capelli veri.</p>
+            </div>
+            <div class="service-item fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+                <h3 class="service-item__title">Uomo</h3>
+                <p class="service-item__desc">Taglio uomo, definizione barba, natural color for men, stiraggio e trattamenti viso dedicati.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCEGLI SEDE -->
+    <section id="sedi" aria-labelledby="sedi-title">
+        <div class="section" style="padding-bottom:2rem;">
+            <div class="container">
+                <p class="section-label fade-in">Le nostre sedi</p>
+                <h2 id="sedi-title" class="section-title fade-in">Scegli il salone<br>più vicino a te</h2>
+                <div class="gold-divider fade-in"></div>
+                <p class="section-subtitle fade-in">Ogni sede mantiene la stessa filosofia, la stessa qualità e la stessa passione per la bellezza naturale.</p>
+            </div>
+        </div>
+        <div class="sede-cards">
+            <a href="torino.html" class="sede-card" aria-label="Visita la sede di Torino">
+                <div class="sede-card__bg" style="background: url('img/67.png') center/cover no-repeat;"></div>
+                <div class="sede-card__overlay"></div>
+                <div class="sede-card__content">
+                    <h3 class="sede-card__city">Collegno TO</h3>
+                    <p class="sede-card__sub">Piemonte · Nord Italia</p>
+                    <div class="sede-card__arrow" aria-hidden="true">→</div>
+                </div>
+            </a>
+            <a href="reggio-calabria.html" class="sede-card" aria-label="Visita la sede di Reggio Calabria">
+                <div class="sede-card__bg" style="background: url('img/gallery-reggio/e.jpg') center/cover no-repeat;"></div>
+                <div class="sede-card__overlay"></div>
+                <div class="sede-card__content">
+                    <h3 class="sede-card__city">Reggio Calabria</h3>
+                    <p class="sede-card__sub">Calabria · Sud Italia</p>
+                    <div class="sede-card__arrow" aria-hidden="true">→</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- PRODOTTI -->
+    <section class="section" aria-labelledby="prodotti-title">
+        <div class="container">
+            <p class="section-label fade-in">Cosa utilizziamo</p>
+            <h2 id="prodotti-title" class="section-title fade-in">Prodotti di derivazione<br>organica selezionati</h2>
+            <div class="gold-divider fade-in"></div>
+            <p class="section-subtitle fade-in">Collaboriamo solo con marchi che condividono la nostra filosofia: formulazioni naturali, rispettose del capello e dell'ambiente.</p>
+
+            <div class="products-slider-wrapper fade-in">
+                <div class="products-pure-track">
+                    <img src="img/products/1000101203.jpg" alt="Dettaglio prodotto organico" loading="lazy" class="product-pure-img">
+                    <img src="img/products/a.jpg" alt="Dettaglio prodotto organico" loading="lazy" class="product-pure-img">
+                    <img src="img/products/1000101205.jpg" alt="Dettaglio prodotto organico" loading="lazy" class="product-pure-img">
+                    <img src="img/products/1000101204.jpg" alt="Dettaglio prodotto organico" loading="lazy" class="product-pure-img">
+                    <img src="img/products/1000101203.jpg" alt="Dettaglio prodotto organico" loading="lazy" class="product-pure-img">
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .products-slider-wrapper {
+                position: relative;
+                margin-top: 2.5rem;
+                /* Crea una sfumatura ai lati per far capire che si può scorrere */
+                -webkit-mask-image: linear-gradient(to right, transparent, white 4%, white 96%, transparent);
+                mask-image: linear-gradient(to right, transparent, white 4%, white 96%, transparent);
+            }
+
+            .products-pure-track {
+                display: flex;
+                gap: 20px;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                -webkit-overflow-scrolling: touch;
+                padding: 15px 0;
+            }
+
+                /* Nasconde la barra di scorrimento su tutti i browser */
+                .products-pure-track::-webkit-scrollbar {
+                    display: none;
+                }
+
+            .products-pure-track {
+                -ms-overflow-style: none; /* IE e Edge */
+                scrollbar-width: none; /* Firefox */
+            }
+
+            /* Stile pulito delle immagini */
+            .product-pure-img {
+                flex: 0 0 auto;
+                height: 320px; /* Leggermente più alta per dare slancio ed eleganza */
+                width: auto;
+                object-fit: cover;
+                border-radius: 6px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+                transition: transform 0.4s ease, filter 0.4s ease;
+            }
+
+            /* Effetto eleganza al passaggio del mouse (solo su desktop) */
+            @media (hover: hover) {
+                .product-pure-img:hover {
+                    transform: scale(1.03);
+                    filter: brightness(1.05);
+                    cursor: grab;
+                }
+
+                .product-pure-img:active {
+                    cursor: grabbing;
+                }
+            }
+        </style>
+    </section>
+
+    <!-- CTA FINALE -->
+    <section class="section section--dark" aria-labelledby="cta-title">
+        <div class="container" style="text-align:center;">
+            <p class="section-label fade-in">Inizia il tuo percorso</p>
+            <h2 id="cta-title" class="section-title fade-in" style="max-width:600px;margin:0 auto 1.5rem;">Prenota il tuo<br>appuntamento oggi</h2>
+            <div class="gold-divider fade-in" style="margin:0 auto 2rem;"></div>
+            <p class="fade-in" style="max-width:500px;margin:0 auto 2.5rem;">Scegli la sede, contattaci via WhatsApp o chiama direttamente — il tuo momento di benessere ti aspetta.</p>
+            <div class="fade-in" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+                <a href="torino.html" class="btn btn-gold">Sede Torino</a>
+                <a href="reggio-calabria.html" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.4);">Sede Reggio Calabria</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <p>Parrucchieri di qualità a Torino e Reggio Calabria. Prodotti di derivazione organica, professionalità e passione per la bellezza naturale.</p>
+                </div>
+                <nav class="footer-col" aria-label="Link rapidi">
+                    <h5>Navigazione</h5>
+                    <a href="index.html">Home</a>
+                    <a href="torino.html">Sede Torino</a>
+                    <a href="reggio-calabria.html">Sede Reggio Calabria</a>
+                    <a href="index.html#servizi">Servizi</a>
+                </nav>
+                <div class="footer-col">
+                    <h5>Contatti</h5>
+                    <a href="torino.html#contatti" style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Torino
+                    </a>
+                    <a href="reggio-calabria.html#contatti" style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Reggio Calabria
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 I 5 Sensi Parrucchieri. Tutti i diritti riservati.</span>              
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <style>
+        @media (max-width: 768px) {
+            .responsive-half {
+                grid-template-columns: 1fr !important;
+                gap: 2.5rem !important;
+            }
+        }
+    </style>
+</body>
+</html>
